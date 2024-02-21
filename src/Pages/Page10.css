@@ -1,0 +1,118 @@
+
+
+.page10_wrapper{
+    width: 100%;
+    background-color: #0E0E0E;
+    padding: 3vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    position: relative;
+}
+
+.page10_wrapper > section{
+    width: 100%;
+}
+
+
+.page10_heading{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: nb;
+    color: white;
+}
+
+.page10_heading > div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: 100;
+}
+
+.page10_heading > div span{
+    font-size: 1.5rem;
+}
+
+.page10_heading > div button{
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 15px 10px;
+    border-radius: 8px;
+    color: white;
+    width: max-content;
+}
+
+.page10_heading > section{
+    display: flex;
+    align-items: flex-start;
+    gap: 4vw;
+}
+
+.page10_heading > section > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+
+.page10_section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: nb;
+    color: white;
+}
+
+.page10_section > div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+.page10_section > section{
+    display: flex;
+    align-items: flex-start;
+    gap: 4vw;
+}
+
+
+.page10_wrapper > section h1{
+    font-size: 27vw;
+    font-family: rejoi;
+    color: white;
+    line-height: 27vw;
+    font-weight: 100;
+}
+
+.page10_wrapper > section h1 span{
+    display: inline-block;
+}
+
+@media screen and (max-width:600px ) {
+
+    .page10_wrapper {
+        padding: 14vw 3vw;
+    }
+
+
+    .page10_heading > div span {
+        font-size: 1.2rem;
+    }
+
+    .page10_heading > section{
+        font-size: 10px;
+    }
+
+    .page10_section{
+        font-size: 12px;
+    }
+
+}

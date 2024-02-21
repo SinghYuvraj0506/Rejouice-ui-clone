@@ -1,0 +1,67 @@
+
+
+.page6_wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #FAF8F3;
+    padding: 3vw;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.page6_wrapper > video{
+    height: 125%;
+}
+
+.page6_wrapper > svg{
+    position: absolute;
+    height: 70%;
+}
+
+.page6_wrapper > div{
+    position: absolute;
+    color: white;
+    font-family: nb;
+    font-weight: lighter;
+}
+
+.page6_wrapper > div h2{
+    font-size: 3.4rem;
+    font-weight: 100;
+}
+
+.page6_wrapper > div span{
+    font-size: 1.4rem;
+}
+
+#cursor_page6{
+    background-color: black;
+    font-family: nb;
+    font-size: 1rem;
+    color: white;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 7;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width:600px ) {
+
+    .page6_wrapper > video{
+        height: 100%;
+    }
+
+
+
+}

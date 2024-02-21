@@ -1,0 +1,43 @@
+
+.page2_wrapper{
+    width: 100%;
+    height: max-content;
+    background-color: #FAF8F3;
+    padding: 3vw;
+    box-sizing: border-box;
+    color: #0e0e0e;
+    z-index: 10;
+    position: relative;
+    padding-bottom: 10vh;
+}
+
+.page2_heading{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    font-family: nb;
+    font-size: 1.5vw;
+    border-bottom: 1px solid #0e0e0e;
+    padding-bottom: 1vw;
+}
+
+.page2_content{
+    width: 100%;
+    padding: 1vw 0;
+}
+
+
+.page2_content > h6{
+    font-family: nb;
+    font-size: 4vw;
+    font-weight: 100;
+}
+
+
+@media screen and (max-width:600px ) {
+    .page2_heading{
+        font-size: 2vw;
+    }
+}

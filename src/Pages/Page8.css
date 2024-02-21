@@ -1,0 +1,56 @@
+
+.page8_wrapper{
+    width: 100%;
+    background-color: #FAF8F3;
+    padding: 3vw;
+    box-sizing: border-box;
+    color: #0e0e0e;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page8_heading{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 1px solid #0e0e0e;
+}
+
+.page8_heading > p{
+    font-family: rejoi;
+    font-size: 8vw;
+    letter-spacing: 3px;
+    line-height: 10vw; 
+}
+
+.page8_heading > span{
+    font-family: nb;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+
+.page8_swiper{
+    width: 100%;
+    margin-top: -50px;
+
+}
+
+.page8_swiper .swiper-wrapper{
+    align-items: flex-end;
+}
+
+.page8_swiper img{
+    width: 100%;
+}
+
+@media screen and (max-width:600px ) {
+
+    .page8_heading > span{
+        font-size: 0.9rem;
+    }
+
+}

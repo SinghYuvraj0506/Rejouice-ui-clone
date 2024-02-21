@@ -1,0 +1,17 @@
+@font-face {
+    font-family: nb;
+    src: url('./assets/NBInternationalProBoo.ttf');
+}
+
+@font-face {
+    font-family: rejoi;
+    src: url('./assets/Rejouice-Headline.ttf');
+}
+
+
+.main_wrapper_div{
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    position: relative;
+}
